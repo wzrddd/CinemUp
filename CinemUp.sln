@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{75AF5F5D-DD0A-40F9-893C-49E481FC8A5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CinemUp.Presentation", "src\CinemUp.Presentation\CinemUp.Presentation.csproj", "{3DD47012-6962-40BD-870D-47F9B10B5BB7}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "CinemUp.Client", "src\CinemUp.Client\CinemUp.Client.esproj", "{CA530DD9-1CEA-426B-AA64-01B177623022}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CinemUp.BLL", "src\CinemUp.BLL\CinemUp.BLL.csproj", "{C4DFCC79-7EDA-4FC8-8F2F-0817C286A07B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CinemUp.DAL", "src\CinemUp.DAL\CinemUp.DAL.csproj", "{5801656D-9C13-4DFF-8973-A9D370966BB3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CEDBC844-CA5F-4013-8DA0-60CEB302EFA1}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+		.editorconfig = .editorconfig
+		docker\docker-compose.yml = docker\docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DD47012-6962-40BD-870D-47F9B10B5BB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DD47012-6962-40BD-870D-47F9B10B5BB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DD47012-6962-40BD-870D-47F9B10B5BB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DD47012-6962-40BD-870D-47F9B10B5BB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA530DD9-1CEA-426B-AA64-01B177623022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA530DD9-1CEA-426B-AA64-01B177623022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA530DD9-1CEA-426B-AA64-01B177623022}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA530DD9-1CEA-426B-AA64-01B177623022}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{C4DFCC79-7EDA-4FC8-8F2F-0817C286A07B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4DFCC79-7EDA-4FC8-8F2F-0817C286A07B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4DFCC79-7EDA-4FC8-8F2F-0817C286A07B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4DFCC79-7EDA-4FC8-8F2F-0817C286A07B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5801656D-9C13-4DFF-8973-A9D370966BB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5801656D-9C13-4DFF-8973-A9D370966BB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5801656D-9C13-4DFF-8973-A9D370966BB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5801656D-9C13-4DFF-8973-A9D370966BB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3DD47012-6962-40BD-870D-47F9B10B5BB7} = {75AF5F5D-DD0A-40F9-893C-49E481FC8A5B}
+		{CA530DD9-1CEA-426B-AA64-01B177623022} = {75AF5F5D-DD0A-40F9-893C-49E481FC8A5B}
+		{C4DFCC79-7EDA-4FC8-8F2F-0817C286A07B} = {75AF5F5D-DD0A-40F9-893C-49E481FC8A5B}
+		{5801656D-9C13-4DFF-8973-A9D370966BB3} = {75AF5F5D-DD0A-40F9-893C-49E481FC8A5B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6EBE5474-A85E-4134-BD87-30B0249A6813}
+	EndGlobalSection
+EndGlobal
